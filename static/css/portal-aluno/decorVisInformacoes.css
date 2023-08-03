@@ -1,0 +1,161 @@
+/*****************************************
+ * Ajustes na decoração do decorVisInformacoes
+ *****************************************/
+#gnosys-decor-vis-informacoes {
+  display: table;
+  width: 100%;
+}
+
+#gnosys-decor-vis-informacoes-lateral-sticky-wrapper,
+#gnosys-decor-vis-informacoes-dados {
+  display: table-cell;
+  vertical-align: top;
+}
+
+#gnosys-decor-vis-informacoes-lateral,
+#gnosys-decor-vis-informacoes-lateral-sticky-wrapper {
+  width: 180px;
+}
+
+#gnosys-decor-vis-informacoes-lateral {
+  margin-right: 10px;
+  text-align: right;
+}
+
+#gnosys-decor-vis-informacoes-lateral .gnosys-foto {
+  box-shadow: none;
+}
+
+#gnosys-decor-vis-informacoes-menu {
+  list-style: none;
+  text-transform: uppercase;
+  color: #6da57e;
+  font-weight: bold;
+}
+
+#gnosys-decor-vis-informacoes-menu li {
+  margin-top: 20px;
+}
+
+#gnosys-decor-vis-informacoes-menu a,
+#gnosys-decor-vis-informacoes-menu a:link,
+#gnosys-decor-vis-informacoes-menu a:visited,
+#gnosys-decor-vis-informacoes-menu a:hover,
+#gnosys-decor-vis-informacoes-menu a:active {
+  color: #6da57e;
+}
+
+#gnosys-decor-vis-informacoes-dados .gnosys-bloco-conteudo,
+#gnosys-decor-vis-informacoes-dados .gnosys-coluna-conteudo {
+  display: table;
+  width: 100%;
+}
+
+#gnosys-decor-vis-informacoes-dados .gnosys-bloco-titulo,
+#gnosys-decor-vis-informacoes-dados .gnosys-bloco-subtitulo,
+#gnosys-decor-vis-informacoes-dados .gnosys-blococoluna-titulo,
+#gnosys-decor-vis-informacoes-dados .gnosys-coluna-subtitulo {
+  text-transform: uppercase;
+}
+
+#gnosys-decor-vis-informacoes-dados .gnosys-bloco-titulo,
+#gnosys-decor-vis-informacoes-dados .gnosys-blococoluna-titulo {
+  color: #6da57e;
+}
+
+#gnosys-decor-vis-informacoes-dados .gnosys-bloco-subtitulo,
+#gnosys-decor-vis-informacoes-dados .gnosys-coluna-subtitulo {
+  color: #666666;
+}
+
+#gnosys-decor-vis-informacoes-dados .gnosys-campo {
+  display: table;
+  width: 100%;
+}
+#gnosys-decor-vis-informacoes-dados .gnosys-campo.even {
+  background-color: #f3f3f3;
+}
+#gnosys-decor-vis-informacoes-dados .gnosys-campo.odd {
+  background-color: #ffffff;
+}
+
+#gnosys-decor-vis-informacoes-dados .gnosys-campo-label {
+  font-weight: bold;
+  width: 50%;
+  padding-left: 10px;
+}
+
+#gnosys-decor-vis-informacoes-dados .gnosys-campo-check .gnosys-campo-label {
+  width: auto;
+}
+
+#gnosys-decor-vis-informacoes-dados
+  .gnosys-campo-edicao
+  .gnosys-campo-label.gnosys-campo-requerido:not(.gnosys-campo-desabilitado):after {
+  content: "*";
+  position: absolute;
+  color: #ee3333;
+}
+
+#gnosys-decor-vis-informacoes-dados .gnosys-campo {
+  line-height: 40px;
+}
+
+#gnosys-decor-vis-informacoes-dados .gnosys-campo .gnosys-mensagem {
+  line-height: normal;
+}
+
+#gnosys-decor-vis-informacoes-dados .gnosys-input,
+#gnosys-decor-vis-informacoes-dados .gnosys-inputarea,
+#gnosys-decor-vis-informacoes-dados .gnosys-calendar-input,
+#gnosys-decor-vis-informacoes-dados .gnosys-select,
+#gnosys-decor-vis-informacoes-dados .gnosys-selectlist,
+#gnosys-decor-vis-informacoes-dados .gnosys-calendarfaixa {
+  width: 100%;
+  margin-left: -5px;
+  box-shadow: none;
+}
+
+#gnosys-decor-vis-informacoes-dados .gnosys-campo-label ~ .gnosys-inputarea {
+  vertical-align: top;
+}
+
+#gnosys-decor-vis-informacoes-dados .gnosys-inputarea {
+  margin: 5px 5px 5px -5px;
+}
+
+#gnosys-decor-vis-informacoes-dados table .gnosys-input,
+#gnosys-decor-vis-informacoes-dados table .gnosys-calendar-input,
+#gnosys-decor-vis-informacoes-dados table .gnosys-select,
+#gnosys-decor-vis-informacoes-dados table .gnosys-selectlist,
+#gnosys-decor-vis-informacoes-dados table .gnosys-calendarfaixa {
+  margin-left: 0px;
+}
+
+#gnosys-decor-vis-informacoes-dados table .gnosys-inputarea {
+  margin: 0px;
+}
+
+#gnosys-decor-vis-informacoes-dados .gnosys-check {
+  margin-left: 10px;
+}
+
+#gnosys-decor-vis-informacoes-dados .gnosys-select-tiposanguineo {
+  margin-right: 15px;
+}
+
+#gnosys-decor-vis-informacoes-dados .gnosys-select-tiposanguineo,
+#gnosys-decor-vis-informacoes-dados .gnosys-select-fatorrh {
+  width: auto;
+  display: inline-block;
+}
+
+#gnosys-decor-vis-informacoes-dados .gnosys-campo .silonioOff {
+  display: none;
+}
+
+#gnosys-decor-vis-informacoes-dados .gnosys-mensagem.gnosys-mensagem-sucesso,
+#gnosys-decor-vis-informacoes-dados .gnosys-mensagem.gnosys-mensagem-aviso,
+#gnosys-decor-vis-informacoes-dados .gnosys-mensagem.gnosys-mensagem-erro {
+  background-position: left center;
+}

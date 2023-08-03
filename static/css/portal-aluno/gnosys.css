@@ -1,0 +1,13 @@
+@import url("/static/css/portal-aluno/utils.css");
+@import url("/static/css/portal-aluno/template.css");
+@import url("/static/css/portal-aluno/templateVisualizacao.css");
+@import url("/static/css/portal-aluno/templateError.css");
+@import url("/static/css/portal-aluno/decorFiltro.css");
+@import url("/static/css/portal-aluno/filtroControle.css");
+@import url("/static/css/portal-aluno/paginacao.css");
+@import url("/static/css/portal-aluno/resultadoControle.css");
+@import url("/static/css/portal-aluno/filtroResultado.css");
+@import url("/static/css/portal-aluno/resultadoConfiguracao.css");
+@import url("/static/css/portal-aluno/decorVisAjuda.css");
+@import url("/static/css/portal-aluno/decorVisInformacoes.css");
+@import url("/static/css/portal-aluno/decorVisSeletorMatricula.css");

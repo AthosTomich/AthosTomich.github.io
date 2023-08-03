@@ -1,0 +1,60 @@
+/*****************************************
+ * Abas
+ *****************************************/
+.gnosys-aba {
+  padding: 5px 10px 3px;
+  margin: 0 0 0 10px;
+  border-radius: 5px 5px 0 0;
+  border: 1px solid #ccc;
+  border-bottom: 0px;
+  background: #f2f2f2;
+  display: inline-block;
+  vertical-align: bottom;
+  text-decoration: none;
+  color: #b7b7b7;
+}
+
+.gnosys-aba.gnosys-aba-selec {
+  position: relative;
+  z-index: 1;
+  top: 1;
+  background: #ffffff;
+  text-decoration: none;
+  color: #494949;
+  font-weight: bold;
+}
+
+.gnosys-aba.voltar {
+  background-image: url("/static/img/portal-aluno/filtroPb.gif");
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 15px;
+}
+
+#gnosys-abas-conteudo-principal {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+#gnosys-abas-conteudo-barra-superior.visivel {
+  height: 30px;
+  line-height: 30px;
+  text-align: right;
+}
+
+#gnosys-abas-conteudo-barra-superior .gnosys-icone {
+  cursor: default;
+  cursor: hand;
+  margin: 2px;
+  border: 1px solid transparent;
+  padding: 2px;
+  background-position: 2px center;
+}
+
+#gnosys-abas-conteudo-barra-superior .gnosys-icone:hover {
+  border-color: #c6c6c6;
+  background-color: #f8f8f8;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,23 @@
+/*****************************************
+ * Ajustes na decoração do templateError
+ *****************************************/
+#gnosys-template-erro {
+  background: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 40px 0px;
+}
+
+#gnosys-template-erro-imagem {
+  background: url("/static/img/portal-aluno/error.png") center center no-repeat;
+  min-height: 155px;
+}
+
+#gnosys-template-erro-mensagem {
+  text-align: center;
+}
+
+ul#gnosys-template-erro-mensagens li {
+  padding: 0.5em;
+  text-align: center;
+}

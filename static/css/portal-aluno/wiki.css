@@ -1,0 +1,140 @@
+#gnosys-help-icon {
+  display: none;
+  position: fixed;
+  top: 20%;
+  left: 0;
+  width: 25px;
+  height: 25px;
+  background: transparent url("/static/img/portal-aluno/help.png") no-repeat
+    center center;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  cursor: pointer;
+  cursor: hand;
+}
+
+#gnosys-help .jqimessage {
+  /*height: 400px;*/ /* ajustado via js */
+  overflow: auto;
+}
+
+#gnosys-help #toc {
+  position: absolute;
+  width: 162px;
+  left: 10px;
+  /*height: 400px;*/ /* ajustado via js */
+  overflow: auto;
+}
+
+#gnosys-help #page-data {
+  width: 589px;
+  padding-left: 10px;
+  float: right;
+  border-left: 1px solid #ddd;
+}
+
+#gnosys-help #toc ul {
+  padding-top: 5px;
+  padding-left: 5px;
+  list-style: none;
+  margin: 0px;
+}
+
+#gnosys-help #toc li {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+#gnosys-help #toc a {
+  font-style: italic;
+  color: #666;
+  outline: medium none;
+  text-decoration: none;
+}
+
+#gnosys-help #toc a:hover {
+  color: #066;
+}
+
+h1.showhide_heading {
+  display: none;
+}
+
+#gnosys-help .leiaMais a {
+  color: #066;
+  text-decoration: none;
+}
+
+#gnosys-help .leiaMais a:hover {
+  text-decoration: underline;
+}
+
+#gnosys-help .leiaMais p,
+#gnosys-help .expandMe p {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#gnosys-help {
+  position: relative;
+  padding-left: 200px;
+  padding-bottom: 10px;
+}
+
+#gnosys-help .jqititle {
+  padding-left: 25px;
+  background: url("/static/img/portal-aluno/help22.png") no-repeat left center;
+}
+
+#gnosys-help h3,
+#gnosys-help h3#gnosys-help-title,
+#gnosys-help h3.showhide_heading {
+  color: #006666;
+  font-weight: normal;
+  letter-spacing: 1px;
+  margin-top: 20px;
+}
+
+#gnosys-help h3:nth-of-type(1) {
+  margin-top: 0px;
+}
+
+#gnosys-help h4 {
+  color: #333;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-top: 5px;
+}
+
+#gnosys-help ul,
+#gnosys-help ol {
+  margin: 0.5em;
+  margin-left: 0.8em;
+  list-style-position: inside;
+}
+
+#gnosys-help ul {
+  list-style-type: disc;
+}
+
+#gnosys-help dl {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+#gnosys-help dt {
+  margin-bottom: 10px;
+}
+
+#gnosys-help dd {
+  margin-left: 40px;
+}
+
+#gnosys-help dd .simplebox {
+  padding: 8px;
+  color: black;
+  border: 1px solid #8cacbb;
+  background: white;
+}

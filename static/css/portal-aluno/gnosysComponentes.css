@@ -1,0 +1,654 @@
+/*************************************************************************/
+/*Componentes Customizados*/
+/*************************************************************************/
+
+/*********************************
+ *    Campos e Inputs
+ *********************************/
+.gnosys-campo {
+  display: table-row;
+}
+
+.gnosys-campo-area-icones + * {
+  display: table-cell;
+}
+
+.rich-list-shuttle-caption div, /* label do listshuttle */
+.gnosys-campo-label,
+.gnosys-item-visualizacao,
+.gnosys-input,
+.gnosys-inputarea, 
+.gnosys-calendar-input,
+.gnosys-select,
+.gnosys-selectlist,
+.gnosys-calendarfaixa {
+  display: table-cell;
+}
+
+.gnosys-spinner {
+  display: flex;
+  width: 99%;
+}
+
+.gnosys-spinner-input {
+  width: 100%;
+}
+
+.gnosys-input,
+.gnosys-inputarea,
+.gnosys-select,
+.gnosys-selectlist {
+  background: #fefefe;
+  border: 1px solid #bcbcbc;
+  padding: 3px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.gnosys-input:focus,
+.gnosys-inputarea:focus,
+.gnosys-select:focus,
+.gnosys-selectlist:focus {
+  background-color: #fafffa;
+  border-color: #004d08;
+}
+
+.gnosys-campo.gnosys-campo-erro .gnosys-input,
+.gnosys-campo.gnosys-campo-erro .gnosys-inputarea,
+.gnosys-campo.gnosys-campo-erro .gnosys-select,
+.gnosys-campo.gnosys-campo-erro .gnosys-selectlist {
+  background-color: #ffe6e6;
+  border-color: #c8412c;
+}
+
+.gnosys-inputarea {
+  resize: vertical;
+}
+
+.gnosys-calendarfaixa span.gnosys-calendarfaixa-texto {
+  margin: 5px 0;
+  display: block;
+}
+
+.gnosys-fieldset {
+  border: 1px solid #bcbcbc;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  padding-left: 1%;
+}
+
+.gnosys-fieldset .gnosys-legend {
+  display: block;
+}
+
+.gnosys-select-tiposanguineo,
+.gnosys-select-fatorrh {
+  display: inline-block;
+}
+
+.gnosys-campo-check .gnosys-campo-label {
+  display: inline-block;
+  width: auto;
+}
+
+/*********************************
+ *    Modal
+ *********************************/
+.gnosys-modal {
+  padding: 10px;
+}
+
+.gnosys-modal .gnosys-campo {
+  line-height: 40px;
+  display: table;
+  width: 100%;
+}
+.gnosys-modal .gnosys-campo.even {
+  background-color: #f3f3f3;
+}
+.gnosys-modal .gnosys-campo.odd {
+  background-color: #ffffff;
+}
+.gnosys-modal .gnosys-campo .gnosys-mensagem {
+  line-height: normal;
+  padding-bottom: 5px;
+}
+
+.gnosys-modal .rich-list-shuttle-caption div, /* label do listshuttle */
+.gnosys-modal .gnosys-campo-label {
+  font-weight: bold;
+  width: 50%;
+}
+
+.gnosys-modal .gnosys-campo-check .gnosys-campo-label {
+  width: auto;
+}
+
+.gnosys-modal .gnosys-campo-label {
+  padding-left: 10px;
+}
+
+.gnosys-modal
+  .gnosys-campo-label.gnosys-campo-requerido:not(.gnosys-campo-desabilitado):after {
+  content: "*";
+  position: absolute;
+  color: #ee3333;
+}
+
+.gnosys-modal .gnosys-input,
+.gnosys-modal .gnosys-inputarea,
+.gnosys-modal .gnosys-calendar-input,
+.gnosys-modal .gnosys-select,
+.gnosys-modal .gnosys-selectlist,
+.gnosys-modal .gnosys-calendarfaixa {
+  width: 100%;
+  margin-left: -5px;
+  box-shadow: none;
+  display: table-cell;
+}
+
+.gnosys-modal .gnosys-check {
+  margin-left: 10px;
+}
+
+.gnosys-modal .gnosys-select-tiposanguineo {
+  margin-right: 15px;
+}
+
+.gnosys-modal .gnosys-select-tiposanguineo,
+.gnosys-modal .gnosys-select-fatorrh {
+  width: auto;
+  display: inline-block;
+}
+
+.gnosys-modal-header {
+  background-color: #c0ddc6;
+  background-image: none !important;
+  border: 1px solid #d4cfc7;
+  color: #666;
+  font-size: 1.1em;
+  padding: 13px 15px;
+  text-align: left;
+  font-weight: bold;
+  font-family: Arial, Verdana, sans-serif;
+}
+
+.gnosys-modal-header .gnosys-modal-icone {
+  float: left;
+  margin-right: 7px;
+}
+
+.gnosys-modal-control {
+  top: 10px;
+}
+
+.gnosys-modal-botoes {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.gnosys-modal .fechar {
+  float: right;
+  border: 1px solid #999;
+  margin-top: 4px;
+  margin-right: 4px;
+  height: 12px;
+  width: 12px;
+  background-color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("/static/img/portal-aluno/iconeResultado_fechar.gif");
+  cursor: pointer;
+  cursor: hand;
+}
+
+.gnosys-modal .fechar:hover {
+  background-image: url("/static/img/portal-aluno/iconeResultado_fechar_hover.gif");
+}
+
+/*********************************
+ *    Foto
+ *********************************/
+.gnosys-foto {
+  border: 1px solid #eeeeee;
+  box-shadow: 0 0 20px rgba(200, 200, 200, 0.9);
+}
+
+/*********************************
+ *    Componente Groucheck
+ *********************************/
+.gnosys-groupcheck {
+  font-size: 0.9em;
+}
+
+/*********************************
+ *    Componente Groupradio
+ *********************************/
+.gnosys-groupradio {
+  font-size: 0.9em;
+}
+
+.rich-table-cell .gnosys-groupradio {
+  font-size: 11px;
+  color: black;
+  font-family: Arial, Verdana, sans-serif;
+}
+
+/*********************************
+ *    Componente retrÃ¡til
+ *********************************/
+.gnosys-retratil {
+  overflow: hidden;
+}
+
+.gnosys-retratil-trigger {
+  text-decoration: none;
+  color: #055;
+  float: right;
+  font-weight: normal;
+}
+
+.gnosys-item-retratil .gnosys-label-retratil {
+  float: none;
+}
+
+/*********************************
+ *    RetrÃ¡til trigger
+ *********************************/
+a.gnosys-retratil-trigger {
+  background-repeat: no-repeat;
+  height: 16px;
+  width: 16px;
+}
+
+a.gnosys-retratil-aberto {
+  background-image: url("/static/img/portal-aluno/1uparrow.png");
+}
+
+a.gnosys-retratil-fechado {
+  background-image: url("/static/img/portal-aluno/1downarrow.png");
+}
+
+.gnosys-bloco-extra {
+  float: right;
+}
+
+.gnosys-bloco-extra li {
+  display: inline-block;
+}
+
+/*********************************
+ *    BotÃµes
+ *********************************/
+.gnosys-botao-comimagem {
+  padding-left: 25px !important;
+  background-position: 4px center;
+
+  /* redefinir para o botÃ£o atributo background-image (imagem de 16x16px) com modificador !important */
+}
+
+.gnosys-botao-somenteimagem {
+  width: 20px;
+  height: 20px;
+  background-position: 2px center;
+
+  /* redefinir para o botÃ£o atributo background-image (imagem de 16x16px) com modificador !important */
+}
+
+.gnosys-botao {
+  outline: medium none;
+  padding: 7px 10px;
+  color: #333;
+
+  background-repeat: no-repeat;
+  background-color: #c0ddc6;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #6a9974 #47664d #507357 #628c6a;
+
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+
+  -webkit-transition: all 0.218s ease 0s;
+  -moz-transition: all 0.218s ease 0s;
+  -o-transition: all 0.218s ease 0s;
+  transition: all 0.218s ease 0s;
+
+  text-shadow: 0 1px rgba(0, 0, 0, 0.2);
+}
+
+.gnosys-botao {
+  margin: 10px 0px;
+}
+
+.gnosys-botao + .gnosys-botao {
+  margin-left: 10px;
+}
+
+.gnosys-botao::-moz-focus-inner {
+  border: medium none;
+}
+
+.gnosys-botao:disabled:hover,
+.gnosys-botao:disabled {
+  color: #bbb;
+
+  background-color: #f7faf8;
+  border: 1px solid #e6e6e6;
+
+  -moz-box-shadow: inset -1px -1px 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: inset -1px -1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: inset -1px -1-px 1px rgba(0, 0, 0, 0.1);
+
+  text-shadow: 0;
+}
+
+.gnosys-botao:active {
+  -moz-box-shadow: inset -1px 1px 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: inset -1px 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: inset -1px 1px 1px rgba(0, 0, 0, 0.1);
+
+  border-color: #507357 #47664d #6a9974 #628c6a;
+}
+
+/*********************************
+ *    Documento
+ *********************************/
+.gnosys-documento span {
+  padding-right: 3px;
+}
+
+.gnosys-documento-salvar,
+.gnosys-documento-cancelar {
+  display: inline-block !important;
+}
+
+/*********************************
+ *    Blocos
+ *********************************/
+.gnosys-bloco,
+.gnosys-subbloco,
+.gnosys-blococoluna,
+.gnosys-blococoluna-conteudo > * {
+  margin: 0;
+  padding: 0;
+}
+
+.gnosys-bloco-conteudo,
+.gnosys-subbloco-conteudo,
+.gnosys-blococoluna-conteudo,
+.gnosys-blococoluna-conteudo > *,
+.gnosys-coluna-conteudo {
+  margin: 0;
+  padding: 0;
+}
+
+.gnosys-bloco-conteudo,
+.gnosys-blococoluna-conteudo {
+  margin-bottom: 20px;
+}
+
+.gnosys-bloco-titulo,
+.gnosys-blococoluna-titulo {
+  margin-bottom: 10px;
+}
+
+.gnosys-bloco-subtitulo,
+.gnosys-coluna-subtitulo {
+  margin-bottom: 6px;
+}
+
+.gnosys-subbloco {
+  margin-bottom: 10px;
+}
+
+.gnosys-blococoluna-conteudo {
+  display: table;
+  width: 100%;
+}
+
+.gnosys-blococoluna-conteudo > * {
+  display: table-cell;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.gnosys-blococoluna-separador {
+  display: table-row;
+  height: 20px;
+}
+
+.gnosys-blococoluna2 .gnosys-blococoluna-conteudo > * {
+  width: 50%;
+}
+.gnosys-blococoluna2 .gnosys-blococoluna-conteudo > *:nth-child(3n + 1) {
+  padding-left: 0;
+}
+.gnosys-blococoluna2 .gnosys-blococoluna-conteudo > *:nth-child(3n + 2) {
+  padding-right: 0;
+}
+
+.gnosys-blococoluna3 .gnosys-blococoluna-conteudo > * {
+  width: 33%;
+}
+.gnosys-blococoluna3 .gnosys-blococoluna-conteudo > *:nth-child(3n + 1) {
+  padding-left: 0;
+}
+.gnosys-blococoluna3 .gnosys-blococoluna-conteudo > *:nth-child(3n + 2) {
+  padding-right: 0;
+}
+
+.gnosys-blococoluna4 .gnosys-blococoluna-conteudo > * {
+  width: 25%;
+}
+.gnosys-blococoluna4 .gnosys-blococoluna-conteudo > *:nth-child(3n + 1) {
+  padding-left: 0;
+}
+.gnosys-blococoluna4 .gnosys-blococoluna-conteudo > *:nth-child(3n + 2) {
+  padding-right: 0;
+}
+
+/*********************************
+ *    Componente de mensagens da wiki
+ *********************************/
+.gnosys-mensagem-wiki li,
+.gnosys-mensagem-wiki ol {
+  list-style-position: inside;
+}
+
+.gnosys-mensagem-wiki h1.showhide_heading {
+}
+
+.gnosys-mensagem-wiki h2.showhide_heading {
+}
+
+.gnosys-mensagem-wiki h3.showhide_heading {
+  font-size: 1.4em;
+  font-weight: bold;
+  border: none;
+  color: #f28c00;
+  margin: 10px 0px 5px 0px;
+  text-transform: none;
+  text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1);
+  letter-spacing: 1.8px;
+}
+
+.gnosys-mensagem-wiki h4.showhide_heading {
+  font-size: 1.2em;
+  background-color: #ffffff;
+  color: #333;
+  font-weight: normal;
+  letter-spacing: 1px;
+  margin: 5px 0px 2px 0px;
+}
+
+.gnosys-mensagem-wiki h5.showhide_heading {
+  font-size: 1em;
+  font-weight: normal;
+  margin: 2px 0px;
+}
+
+.gnosys-mensagem-wiki h6.showhide_heading {
+  font-size: 0.9em;
+  font-weight: normal;
+  margin: 2px 0px;
+}
+
+.gnosys-mensagem-wiki hr {
+  display: block;
+  border: none;
+  padding: 5px 0;
+}
+
+.gnosys-mensagem-wiki p {
+  margin: 2px 0;
+}
+
+/*********************************
+ *  Estilos das mensagens de validacao
+ *********************************/
+.gnosys-mensagem,
+.gnosys-mensagens li {
+  margin-top: 3px;
+  padding-left: 20px;
+}
+
+span.gnosys-mensagem {
+  display: block;
+  margin-top: 3px;
+}
+
+.gnosys-mensagem.gnosys-mensagem-sucesso,
+.gnosys-mensagens .gnosys-mensagens-sucesso {
+  color: #4f8a10;
+  background: url("/static/img/portal-aluno/success16.png") no-repeat scroll 2px
+    top transparent;
+}
+
+.gnosys-mensagem.gnosys-mensagem-aviso,
+.gnosys-mensagens .gnosys-mensagens-aviso {
+  color: #9f6000;
+  background: url("/static/img/portal-aluno/alert16.png") no-repeat scroll 2px
+    top transparent;
+}
+
+.gnosys-mensagem.gnosys-mensagem-erro,
+.gnosys-mensagens .gnosys-mensagens-erro {
+  color: #c8412c;
+  background: url("/static/img/portal-aluno/error16.png") no-repeat scroll 2px
+    top transparent;
+}
+
+/*********************************
+ *    Componente de mensagens (caixa)
+ *********************************/
+.gnosys-caixa-mensagens {
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 15px 25px 15px;
+
+  color: #666;
+}
+
+.gnosys-caixa-mensagens {
+  margin: 10px 0;
+}
+
+.gnosys-caixa-mensagens p {
+  margin: 0px;
+}
+
+.gnosys-caixa-mensagens a {
+  color: #066;
+  text-decoration: none;
+}
+
+.gnosys-caixa-mensagens.gnosys-caixa-mensagens-aviso {
+  border: 1px solid #f0c36d;
+  background-color: #f9edbe;
+}
+
+.gnosys-caixa-mensagens.gnosys-caixa-mensagens-info {
+  border: 1px solid #6dc2f0;
+  background-color: #dceef7;
+}
+
+.gnosys-caixa-mensagens.gnosys-caixa-mensagens-erro {
+  border: 1px solid #e58e8e;
+  background-color: #ffe6e6;
+}
+
+.gnosys-caixa-mensagens.gnosys-caixa-mensagens-sucesso {
+  border: 1px solid #83d186;
+  background-color: #d3edd3;
+}
+
+.gnosys-caixa-mensagens.gnosys-caixa-mensagens-comicone {
+  background-position: 5px center;
+  background-repeat: no-repeat;
+  padding: 20px 20px 20px 58px;
+  min-height: 13px;
+}
+
+.gnosys-caixa-mensagens.gnosys-caixa-mensagens-aviso.gnosys-caixa-mensagens-comicone {
+  background-image: url("/static/img/portal-aluno/alert48.png");
+}
+
+.gnosys-caixa-mensagens.gnosys-caixa-mensagens-info.gnosys-caixa-mensagens-comicone {
+  background-image: url("/static/img/portal-aluno/info48.png");
+}
+
+.gnosys-caixa-mensagens.gnosys-caixa-mensagens-erro.gnosys-caixa-mensagens-comicone {
+  background-image: url("/static/img/portal-aluno/error48.png");
+}
+
+.gnosys-caixa-mensagens.gnosys-caixa-mensagens-sucesso.gnosys-caixa-mensagens-comicone {
+  background-image: url("/static/img/portal-aluno/success48.png");
+}
+
+.gnosys-caixa-mensagens .gnosys-mensagens li.gnosys-mensagens-sucesso,
+.gnosys-caixa-mensagens .gnosys-mensagens li.gnosys-mensagens-aviso,
+.gnosys-caixa-mensagens .gnosys-mensagens li.gnosys-mensagens-erro,
+.gnosys-caixa-mensagens.gnosys-mensagens li.gnosys-mensagens-sucesso,
+.gnosys-caixa-mensagens.gnosys-mensagens li.gnosys-mensagens-aviso,
+.gnosys-caixa-mensagens.gnosys-mensagens li.gnosys-mensagens-erro {
+  padding: 0;
+  background-image: none;
+  color: #666;
+}
+
+/*********************************
+ *    Endereco e Telefone
+ *********************************/
+.gnosys-telefone > *,
+.gnosys-endereco > * {
+  display: table-cell;
+}
+
+.gnosys-telefone .gnosys-telefone-tipo,
+.gnosys-endereco .gnosys-endereco-tipo {
+  width: 20%;
+}
+
+.gnosys-telefone .gnosys-telefone-descricao,
+.gnosys-endereco .gnosys-endereco-descricao {
+  width: 50%;
+}
+
+.gnosys-telefone .gnosys-telefone-tipo,
+.gnosys-endereco .gnosys-endereco-tipo {
+  padding-left: 10px;
+}
+
+.gnosys-endereco .gnosys-endereco-descricao {
+  padding: 10px 0;
+}
+
+.gnosys-endereco .gnosys-endereco-descricao > * {
+  display: block;
+  line-height: normal;
+}

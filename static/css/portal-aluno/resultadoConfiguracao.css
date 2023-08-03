@@ -1,0 +1,12 @@
+/*****************************************
+ * Configuração de resultado do filtro
+ *****************************************/
+#gnosys-filtro-resultado-configuracao-paginacaoDecorate {
+  background-color: transparent;
+  display: table;
+  width: 100%;
+}
+
+#gnosys-filtro-resultado-configuracao-atributos {
+  width: 100%;
+}

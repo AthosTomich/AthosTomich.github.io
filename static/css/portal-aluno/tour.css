@@ -1,0 +1,16 @@
+#gnosys-tour-icon {
+  display: none;
+  position: fixed;
+  top: 30%;
+  left: 0;
+  width: 25px;
+  height: 25px;
+  background: transparent url("/static/img/portal-aluno/tour.png") no-repeat
+    center center;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  cursor: pointer;
+  cursor: hand;
+}

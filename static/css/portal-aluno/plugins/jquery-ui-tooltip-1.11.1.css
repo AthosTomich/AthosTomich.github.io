@@ -1,0 +1,19 @@
+/*********************************
+ *    Tooltip
+ *********************************/
+.ui-tooltip {
+  background: none repeat scroll 0 0 #999999;
+  border: 1px solid #666666;
+  color: #ffffff;
+  opacity: 0.9;
+  padding: 5px;
+  position: absolute;
+  width: 12em;
+}
+
+.ui-tooltip h3,
+.ui-tooltip div {
+  font-weight: normal;
+  margin: 0;
+  text-align: center;
+}

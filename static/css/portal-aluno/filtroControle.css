@@ -1,0 +1,54 @@
+/*****************************************
+ * Controle do filtro
+ *****************************************/
+#gnosys-filtro-barra-superior {
+  background-color: #ddd;
+  height: 30px;
+  padding: 0 5px;
+  border: 1px solid #ccc;
+}
+
+/******************
+ * Botão Retrair/Expandir
+ ******************/
+#gnosys-filtro-barra-superior #btnRetrairFiltro {
+  float: right;
+  width: 30px;
+  height: 30px;
+  outline-style: none;
+  background-color: transparent;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#gnosys-filtro-barra-superior #btnRetrairFiltro.retrair {
+  background-image: url("/static/img/portal-aluno/formColapse.gif");
+}
+
+#gnosys-filtro-barra-superior #btnRetrairFiltro.retrair:hover {
+  background-image: url("/static/img/portal-aluno/formColapse_hover.gif");
+}
+
+#gnosys-filtro-barra-superior #btnRetrairFiltro.expandir {
+  background-image: url("/static/img/portal-aluno/formExpand.gif");
+}
+
+#gnosys-filtro-barra-superior #btnRetrairFiltro.expandir:hover {
+  background-image: url("/static/img/portal-aluno/formExpand_hover.gif");
+}
+
+/******************
+ * Icones
+ ******************/
+#gnosys-filtro-barra-superior .gnosys-campo,
+#gnosys-filtro-barra-superior .gnosys-campo-label,
+#gnosys-filtro-barra-superior .gnosys-input,
+#gnosys-filtro-barra-superior .gnosys-calendar-input,
+#gnosys-filtro-barra-superior .gnosys-select,
+#gnosys-filtro-barra-superior .gnosys-campo,
+#gnosys-filtro-barra-superior .gnosys-icone {
+  line-height: 30px;
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 10px;
+}

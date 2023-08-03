@@ -1,0 +1,85 @@
+a {
+  color: #000 !important;
+  text-decoration: none !important;
+}
+
+a:hover {
+  background: none !important;
+  color: #000 !important;
+  text-decoration: none !important;
+}
+
+/*********************************
+ *    Header
+ *********************************/
+#gnosys-header .gnosys-strict {
+  background-image: none;
+}
+
+#gnosys-help,
+#gnosys-menu,
+#gnosys-header #gnosys-login,
+#gnosys-titulo-pagina,
+#gnosys-footer {
+  display: none !important;
+}
+
+#gnosys-header #gnosys-datahora {
+  display: block;
+}
+
+#gnosys-header #gnosys-titulo {
+  left: 0;
+}
+
+#gnosys-filtro,
+#gnosys-filtro-barra-superior,
+#gnosys-filtro-campos,
+#gnosys-filtro-botoes,
+#gnosys-filtro-paginacao,
+#gnosys-filtro-resultado-controle {
+  display: none;
+}
+
+#gnosys-filtro-resultado {
+  margin-top: 20px;
+}
+
+.gnosys-aba,
+#gnosys-abas,
+#gnosys-abas-conteudo-barra-superior,
+#gnosys-abas-conteudo-barra-inferior {
+  display: none;
+}
+
+#gnosys-header {
+  background: #fff;
+  color: #000;
+  padding-bottom: 0px;
+}
+
+#gnosys-abas-conteudo-principal {
+  border: none;
+}
+
+/*********************************
+ *    Tabela de resultado
+ *********************************/
+table.resultado,
+table.resultado th,
+table.resultado td {
+  border: 1px solid #666;
+}
+
+table.resultado .lupa {
+  display: none;
+}
+
+/*********************************
+ *    Componentes
+ *********************************/
+.gnosys-caixa-mensagens {
+  background-color: #fff !important;
+  color: #333 !important;
+  border-color: #999 !important;
+}

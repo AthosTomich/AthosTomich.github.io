@@ -1,0 +1,74 @@
+/*****************************************
+ * Paginação do filtro
+ *****************************************/
+#gnosys-filtro-paginacao form {
+  margin-left: 5px;
+  margin-top: 5px;
+  position: absolute;
+  text-align: center;
+}
+
+#gnosys-filtro-paginacao form input {
+  height: 18px;
+  text-align: center;
+  width: 28px;
+}
+
+#gnosys-filtro-paginacao form span {
+  border: medium none;
+  display: inline;
+  margin-left: 0 !important;
+  margin-top: 0 !important;
+}
+
+#gnosys-filtro-paginacao-campos {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#gnosys-filtro-paginacao .gnosys-icone {
+  cursor: default;
+  cursor: hand;
+  margin: 2px;
+  border: 1px solid transparent;
+  padding: 2px;
+  background-position: 2px center;
+}
+
+#gnosys-filtro-paginacao .gnosys-icone:hover {
+  border-color: #c6c6c6;
+  background-color: #f8f8f8;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+#gnosys-filtro-paginacao .gnosys-icone.prim {
+  background-image: url("/static/img/portal-aluno/setaPrimeiro.gif");
+}
+
+#gnosys-filtro-paginacao .gnosys-icone.primInativo {
+  background-image: url("/static/img/portal-aluno/setaPrimeiroInativo.gif");
+}
+
+#gnosys-filtro-paginacao .gnosys-icone.ant {
+  background-image: url("/static/img/portal-aluno/setaAnterior.gif");
+}
+
+#gnosys-filtro-paginacao .gnosys-icone.antInativo {
+  background-image: url("/static/img/portal-aluno/setaAnteriorInativo.gif");
+}
+
+#gnosys-filtro-paginacao .gnosys-icone.prox {
+  background-image: url("/static/img/portal-aluno/setaProximo.gif");
+}
+
+#gnosys-filtro-paginacao .gnosys-icone.proxInativo {
+  background-image: url("/static/img/portal-aluno/setaProximoInativo.gif");
+}
+
+#gnosys-filtro-paginacao .gnosys-icone.ult {
+  background-image: url("/static/img/portal-aluno/setaUltimo.gif");
+}
+
+#gnosys-filtro-paginacao .gnosys-icone.ultInativo {
+  background-image: url("/static/img/portal-aluno/setaUltimoInativo.gif");
+}

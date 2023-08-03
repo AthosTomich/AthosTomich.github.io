@@ -1,0 +1,43 @@
+/*****************************************
+ * Ajustes na decoração do decorVisAjuda
+ *****************************************/
+.gnosys-decor-vis-ajuda .gnosys-decor-vis-ajuda-caixa {
+  max-width: 442px;
+  background-color: #f3f3f3;
+  border: 1px solid #ccc;
+  padding: 20px 25px;
+  margin: 0 auto 10px 0;
+}
+
+.gnosys-decor-vis-ajuda .gnosys-decor-vis-ajuda-caixa .gnosys-campo,
+.gnosys-decor-vis-ajuda .gnosys-decor-vis-ajuda-caixa .gnosys-label,
+.gnosys-decor-vis-ajuda .gnosys-decor-vis-ajuda-caixa .gnosys-input,
+.gnosys-decor-vis-ajuda .gnosys-decor-vis-ajuda-caixa .gnosys-select {
+  display: block;
+  width: 100%;
+}
+
+.gnosys-decor-vis-ajuda .gnosys-decor-vis-ajuda-caixa .rich-calendar-button {
+  display: block;
+  position: relative;
+  margin-top: -22px;
+  margin-left: 95%;
+}
+
+.gnosys-decor-vis-ajuda .gnosys-decor-vis-ajuda-caixa .gnosys-campo,
+.gnosys-decor-vis-ajuda .gnosys-decor-vis-ajuda-caixa .captcha {
+  margin-bottom: 10px;
+}
+
+.gnosys-decor-vis-ajuda .gnosys-decor-vis-ajuda-caixa .captcha {
+  display: block;
+  background-color: #fff;
+}
+
+.gnosys-decor-vis-ajuda .gnosys-decor-vis-ajuda-caixa-botoes {
+  margin-top: 10px;
+}
+
+.gnosys-decor-vis-ajuda .gnosys-decor-vis-ajuda-caixa-botoes-direita {
+  text-align: right;
+}

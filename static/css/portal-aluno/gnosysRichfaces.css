@@ -1,0 +1,184 @@
+/*************************************************************************/
+/*Rich Faces*/
+/*************************************************************************/
+
+/*********************************
+ *    Calendario
+ *********************************/
+.rich-calendar-header td {
+  color: #fff;
+  padding: 2px;
+}
+
+.rich-calendar-header,
+.rich-calendar-toolfooter {
+  border: none;
+}
+
+.rich-calendar-header .rich-calendar-tool-btn-hover {
+  color: #000;
+  padding: 2px 3px;
+}
+
+.rich-calendar-time-btn,
+.rich-calendar-tool-btn,
+.rich-calendar-editor-btn {
+  float: none !important;
+  width: auto !important;
+  margin: auto !important;
+  border: none;
+  background: transparent;
+}
+
+.rich-calendar-editor-btn,
+.rich-calendar-editor-btn-over {
+  padding: 4px !important;
+}
+
+.rich-calendar-select,
+.rich-calendar-editor-btn-selected {
+  padding: 0px !important;
+  background-color: #6b9974 !important;
+  color: #ffffff !important;
+}
+
+.rich-calendar-days,
+.rich-calendar-toolfooter {
+  background-color: #f3f3f3;
+}
+
+.rich-calendar-weekends,
+.rich-calendar-holly {
+  background-color: #f3f3f3;
+  color: #005544;
+}
+
+.rich-calendar-days {
+  color: #333;
+  font-weight: bold;
+  border-bottom: 1px solid #c4c0b9;
+}
+
+.rich-calendar-month,
+.rich-calendar-tool {
+  background-color: #6b9974;
+  border: none !important;
+}
+
+.rich-calendar-today {
+  border-color: #000 !important;
+  background-color: #fff;
+  color: #000;
+}
+
+.rich-calendar-holly.rich-calendar-today {
+  background-color: #f3f3f3;
+}
+
+.rich-calendar-boundary-dates,
+.rich-calendar-holly.rich-calendar-boundary-dates {
+  color: #a0a0a0;
+}
+
+.rich-calendar-cell {
+  border: 1px solid transparent;
+}
+
+.rich-calendar-toolfooter .rich-calendar-tool-btn,
+.rich-calendar-toolfooter .rich-calendar-tool-btn-hover {
+  padding: 2px;
+}
+
+.rich-calendar-button {
+  position: relative;
+  margin-left: -22px;
+}
+
+/*********************************
+ *    Modal
+ *********************************/
+.rich-mpnl-body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 90%;
+  color: #333333;
+}
+
+.rich-mpnl-resizer {
+  background-color: transparent;
+}
+
+/*********************************
+ *    Suggestion Box
+ *********************************/
+.rich-sb-common-container table.rich-sb-int-decor-table th,
+.rich-sb-common-container table.rich-sb-int-decor-table td {
+  padding: 0.2em;
+}
+
+/*********************************
+ *    Scrollable datatable
+ *********************************/
+.rich-sdt-c-f {
+  padding: 0px !important;
+}
+
+/*********************************
+ *    Menu
+ *********************************/
+.rich-pmenu-top-group {
+  background-image: none;
+  background-color: transparent;
+  cursor: default;
+}
+
+.rich-pmenu-top-group-div {
+  border-color: transparent;
+}
+
+.rich-pmenu-item {
+  border: none;
+}
+
+/*********************************
+ *    List Shuttle
+ *********************************/
+.rich-shuttle-source-caption,
+.rich-shuttle-target-caption,
+.rich-shuttle-source-cell,
+.rich-shuttle-target-cell,
+.rich-shuttle-source-cell *,
+.rich-shuttle-target-cell *,
+.rich-shuttle-source-cell-selected,
+.rich-shuttle-target-cell-selected,
+.rich-shuttle-source-cell-selected *,
+.rich-shuttle-target-cell-selected * {
+  font-size: 90%;
+}
+
+.rich-shuttle-source-caption,
+.rich-shuttle-source-items,
+.rich-shuttle-target-items {
+  padding: 0;
+  margin: 0;
+}
+
+/*********************************
+ *    Tabela
+ *********************************/
+.rich-table-subheadercell,
+.rich-table-cell {
+  font-size: 90%;
+}
+
+/*********************************
+ *    Spinner
+ *********************************/
+.rich-spinner-input-container {
+  width: 100% !important;
+  border-color: transparent;
+}
+
+.rich-spinner-input {
+  font-size: small;
+  width: 90%;
+}

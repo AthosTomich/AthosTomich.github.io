@@ -1,0 +1,383 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 90%;
+  background-color: #ffffff;
+  color: #333333;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+a,
+a:hover {
+  color: #333333;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+hr {
+  display: none;
+}
+
+input.ajax {
+  background-image: url("/static/img/portal-aluno/ajax.gif");
+  background-position: 2px center;
+  background-repeat: no-repeat;
+  padding-left: 12px !important;
+}
+
+.strong {
+  font-weight: bold;
+}
+
+.small {
+  font-size: x-small;
+}
+
+.smaller {
+  font-size: smaller;
+}
+
+.gnosys-titulo-laranja {
+  font-size: 1.4em;
+  font-weight: bold;
+  border: none;
+  color: #f28c00;
+  margin: 10px 0px 5px 0px;
+  text-transform: none;
+  text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1);
+  letter-spacing: 1.8px;
+}
+
+/******************
+ * Separador de elementos em templates
+ ******************/
+.gnosys-decor-vis-separator + * {
+  margin-top: 40px;
+}
+
+/******************
+ * Área de botões
+ ******************/
+.gnosys-area-botoes {
+  text-align: center;
+}
+
+/******************
+ * Silonios
+ ******************/
+.silonio {
+  background: transparent url("/static/img/portal-aluno/requisicaoAjax.gif") 0 0
+    no-repeat;
+  display: block; /* importante para o filtro */
+  height: 20px;
+  width: 20px;
+}
+
+.gnosys-campo .silonio {
+  vertical-align: middle;
+  margin-left: 3px;
+}
+
+.gnosys-campo .silonioOff,
+.silonioOff {
+  display: none;
+}
+
+/******************
+ * Blockpanel
+ ******************/
+.gnosys-blockpanel {
+  display: none;
+  top: 0px;
+  width: 96%;
+  height: 100%;
+  z-index: 9999;
+  position: absolute;
+  padding-top: 15%;
+  text-align: center;
+  font-size: 4em;
+  font-weight: bold;
+}
+
+#blockPanel {
+  background: rgba(32, 48, 48, 0.8)
+    url("/static/img/portal-aluno/ajaxLoader-black.gif") no-repeat scroll center
+    20%;
+  color: #c0ddc6;
+}
+
+/*********************************
+ *    Item selecionado
+ *********************************/
+.rich-shuttle-source-cell-selected,
+.rich-shuttle-target-cell-selected,
+.rich-shuttle-source-cell-selected *,
+.rich-shuttle-target-cell-selected *,
+.rich-calendar-today:hover,
+.rich-calendar-hover,
+.gnosys-suggestionBox-selecionado td,
+.rich-sdt-row-selected {
+  background-color: #fff0c8 !important;
+  background-image: none !important;
+  color: #000 !important;
+}
+
+/******************
+ * Icones
+ ******************/
+.gnosys-icone {
+  min-width: 16px;
+  min-height: 16px;
+  display: inline-block;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-color: transparent;
+  /* redefinir para o icone atributo background-image (imagem de 16x16px) */
+}
+
+.gnosys-icone-comtexto {
+  padding-left: 22px;
+}
+
+/******************
+ * Imagens - Botoes e Icones
+ ******************/
+.gnosys-icone.consultar,
+.gnosys-botao.consultar {
+  background-image: url("/static/img/portal-aluno/xmag.png");
+}
+
+.gnosys-icone.visualizar,
+.gnosys-botao.visualizar {
+  background-image: url("/static/img/portal-aluno/kview.png");
+}
+
+.gnosys-icone.configurar,
+.gnosys-botao.configurar {
+  background-image: url("/static/img/portal-aluno/kcontrol.png");
+}
+
+.gnosys-icone.gerarPdf,
+.gnosys-botao.gerarPdf {
+  background-image: url("/static/img/portal-aluno/pdf.png");
+}
+
+.gnosys-icone.gerarXls,
+.gnosys-botao.gerarXls {
+  background-image: url("/static/img/portal-aluno/spreadsheet.png");
+}
+
+.gnosys-icone.gerarCsv,
+.gnosys-botao.gerarCsv {
+  background-image: url("/static/img/portal-aluno/txt.png");
+}
+
+.gnosys-icone.imprimir,
+.gnosys-botao.imprimir {
+  background-image: url("/static/img/portal-aluno/print_printer.png");
+}
+
+.gnosys-icone.limpar,
+.gnosys-botao.limpar {
+  background-image: url("/static/img/portal-aluno/clear.png");
+}
+
+.gnosys-icone.editar,
+.gnosys-botao.editar {
+  background-image: url("/static/img/portal-aluno/kate.png");
+}
+
+.gnosys-icone.abrirEditar,
+.gnosys-botao.abrirEditar {
+  background-image: url("/static/img/portal-aluno/kate.png");
+}
+
+.gnosys-icone.cancelar,
+.gnosys-botao.cancelar {
+  background-image: url("/static/img/portal-aluno/button_cancel.png");
+}
+
+.gnosys-icone.excluir,
+.gnosys-botao.excluir {
+  background-image: url("/static/img/portal-aluno/trash.png");
+}
+
+.gnosys-icone.salvar,
+.gnosys-botao.salvar {
+  background-image: url("/static/img/portal-aluno/save.png");
+}
+
+.gnosys-icone.salvarNovo,
+.gnosys-botao.salvarNovo {
+  background-image: url("/static/img/portal-aluno/save_new.png");
+}
+
+.gnosys-icone.salvarNovoDesabilitado,
+.gnosys-botao.salvarNovoDesabilitado {
+  background-image: url("/static/img/portal-aluno/save_new_disabled.png");
+}
+
+.gnosys-icone.salvarCopia,
+.gnosys-botao.salvarCopia {
+  background-image: url("/static/img/portal-aluno/save_copy.png");
+}
+
+.gnosys-icone.incluir,
+.gnosys-botao.incluir {
+  background-image: url("/static/img/portal-aluno/edit_add.png");
+}
+
+.gnosys-icone.aplicar,
+.gnosys-botao.aplicar {
+  background-image: url("/static/img/portal-aluno/apply.png");
+}
+
+.gnosys-icone.restaurar,
+.gnosys-botao.restaurar {
+  background-image: url("/static/img/portal-aluno/redo.png");
+}
+
+.gnosys-icone.validar,
+.gnosys-botao.validar {
+  background-image: url("/static/img/portal-aluno/apply.png");
+}
+
+.gnosys-icone.ajuda,
+.gnosys-botao.ajuda {
+  background-image: url("/static/img/portal-aluno/help.png");
+}
+
+.gnosys-icone.tour,
+.gnosys-botao.tour {
+  background-image: url("/static/img/portal-aluno/tour.png");
+}
+
+.gnosys-icone.email,
+.gnosys-botao.email {
+  background-image: url("/static/img/portal-aluno/email.png");
+}
+
+.gnosys-botao.email {
+  background-size: 18px 24px;
+}
+
+.gnosys-icone.email {
+  background-position: center !important;
+  background-size: cover;
+}
+
+.gnosys-icone.twitter,
+.gnosys-botao.twitter {
+  background-image: url("/static/img/portal-aluno/twitter.png");
+}
+
+.gnosys-icone.refazer,
+.gnosys-botao.refazer {
+  background-image: url("/static/img/portal-aluno/redo.png");
+}
+
+.gnosys-icone.desfazer,
+.gnosys-botao.desfazer {
+  background-image: url("/static/img/portal-aluno/undo.png");
+}
+
+.gnosys-icone.upload,
+.gnosys-botao.upload {
+  background-image: url("/static/img/portal-aluno/up.png");
+}
+
+.gnosys-icone.download,
+.gnosys-botao.download {
+  background-image: url("/static/img/portal-aluno/down.png");
+}
+
+.gnosys-icone.aberto,
+.gnosys-botao.aberto {
+  background-image: url("/static/img/portal-aluno/1uparrow.png");
+}
+
+.gnosys-icone.fechado,
+.gnosys-botao.fechado {
+  background-image: url("/static/img/portal-aluno/1downarrow.png");
+}
+
+.gnosys-icone.reiniciar,
+.gnosys-botao.reiniciar {
+  background-image: url("/static/img/portal-aluno/reload_page.png");
+}
+
+.gnosys-icone.voltar,
+.gnosys-botao.voltar {
+  background-image: url("/static/img/portal-aluno/back.png");
+}
+
+.gnosys-icone.pdf,
+.gnosys-botao.pdf {
+  background-image: url("/static/img/portal-aluno/pdf.png");
+}
+
+.gnosys-icone.anexar,
+.gnosys-botao.anexar {
+  background-image: url("/static/img/portal-aluno/attach.png");
+}
+
+.gnosys-icone.gerar,
+.gnosys-botao.gerar {
+  background-image: url("/static/img/portal-aluno/txt.png");
+}
+
+.gnosys-icone.usuario,
+.gnosys-botao.usuario {
+  background-image: url("/static/img/portal-aluno/kuser.png");
+}
+
+.gnosys-icone.estatistica,
+.gnosys-botao.estatistica {
+  background-image: url("/static/img/portal-aluno/kpercentage.png");
+}
+
+.gnosys-icone.som,
+.gnosys-botao.som {
+  background-image: url("/static/img/portal-aluno/kmixdocked.png");
+}
+
+.gnosys-icone.inserirLink,
+.gnosys-botao.inserirLink {
+  background-image: url("/static/img/portal-aluno/inserir_link.png");
+}
+
+.gnosys-icone.inserirLink2,
+.gnosys-botao.inserirLink2 {
+  background-image: url("/static/img/portal-aluno/inserir_link2.png");
+}
+
+.gnosys-icone.linkExterno,
+.gnosys-botao.linkExterno {
+  background-image: url("/static/img/portal-aluno/link_externo.png");
+}
+
+.gnosys-botao:disabled.aguardar {
+  background-image: url("/static/img/portal-aluno/requisicaoAjax.gif") !important;
+}
+
+.gnosys-icone.downloadPDF,
+.gnosys-botao.downloadPDF {
+  background-image: url("/static/img/portal-aluno/download-pdf.png");
+}
+
+.gnosys-icone.arquivoZIP,
+.gnosys-botao.arquivoZIP {
+  background-image: url("/static/img/portal-aluno/zip-file.png");
+}

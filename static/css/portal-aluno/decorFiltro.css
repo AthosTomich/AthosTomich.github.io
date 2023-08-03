@@ -1,0 +1,83 @@
+/*****************************************
+ * Ajustes na decoração do decorFiltro
+ *****************************************/
+.gnosys-decor-filtro-separator + * {
+  margin-top: 20px;
+}
+
+.gnosys-filtro {
+  background-color: #f5f5f5;
+  border: 1px solid #cccccc;
+  padding: 10px;
+}
+
+.gnosys-filtro fieldset {
+  border-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#gnosys-filtro-campos2 {
+  margin-top: 10px;
+  border-top: 1px #d8cfcf solid;
+  padding: 10px;
+}
+
+/******************
+ * Campos
+ ******************/
+.gnosys-filtro-campos {
+  text-align: left;
+}
+
+.gnosys-filtro-campos .gnosys-campo {
+  display: table;
+  float: left;
+  margin: 5px 0;
+  width: 38%;
+}
+
+.gnosys-filtro-campos .gnosys-campo:nth-of-type(even) {
+  margin-right: 10%;
+  margin-left: 1%;
+}
+
+.gnosys-filtro-campos .gnosys-campo:nth-of-type(odd) {
+  margin-left: 10%;
+  margin-right: 1%;
+}
+
+.gnosys-filtro-campos .gnosys-campo .gnosys-campo-label {
+  text-align: left;
+  width: 40%;
+}
+
+.gnosys-filtro-campos .gnosys-calendar-input,
+.gnosys-filtro-campos .gnosys-input,
+.gnosys-filtro-campos .gnosys-inputarea,
+.gnosys-filtro-campos .gnosys-select,
+.gnosys-filtro-campos .gnosys-selectlist {
+  width: 100%;
+}
+
+.gnosys-filtro-campos .gnosys-calendar-input,
+.gnosys-filtro-campos .gnosys-input,
+.gnosys-filtro-campos .gnosys-inputarea {
+  padding: 3px;
+}
+
+.gnosys-filtro-campos .gnosys-filtro-separador-campos {
+  clear: both;
+}
+
+/******************
+ * Mensagens e Botões
+ ******************/
+#gnosys-filtro-botoes .gnosys-botao {
+  margin-left: 5px;
+  float: right;
+}
+
+#gnosys-filtro-mensagens > *:not(#gnosys-decor-filtro-separator) {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,59 @@
+#alunoDecorate {
+  font-weight: bold;
+}
+
+#documentos {
+  margin-top: 20px;
+}
+
+.documento {
+  width: 20%;
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #333333;
+  opacity: 0.9;
+}
+
+.documento:hover {
+  opacity: 1;
+}
+
+.documento-icone {
+  width: 50%;
+}
+
+.documento-icone-desabilitado {
+  width: 50%;
+  opacity: 0.5;
+}
+
+.documento-titulo,
+.documento-titulo-desabilitado,
+.documento-detalhe {
+  display: block;
+}
+
+.documento-detalhe-desabilitado {
+  display: block;
+  opacity: 0.5;
+}
+
+.documento-titulo {
+  margin-top: 5px;
+}
+
+.documento-titulo-desabilitado {
+  margin-top: 5px;
+  opacity: 0.5;
+}
+
+#linkInserirInscricao {
+  text-decoration: underline;
+}
+
+#assinaturaCRPIDDecorate {
+  float: none;
+}

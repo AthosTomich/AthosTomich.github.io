@@ -1,0 +1,338 @@
+#gnosys-wrapper {
+  height: auto;
+  min-height: 94%;
+  min-width: 940px; /* Deve ser igual a #gnosys-footer e .gnosys-strict */
+}
+
+#gnosys-footer {
+  min-width: 940px; /* Deve ser igual a #gnosys-header e .gnosys-strict */
+}
+
+.gnosys-strict {
+  width: 940px; /* Deve ser igual a #gnosys-header e #gnosys-header */
+  margin: 0 auto;
+}
+
+.gnosys-separator {
+  height: 1%;
+}
+
+/******************
+ * Cabeçalho
+ ******************/
+#gnosys-header {
+  color: #666666;
+  height: 94px;
+  background: #cfeedc;
+}
+
+#gnosys-header .gnosys-strict {
+  min-height: 100%;
+  background: url("/static/img/portal-aluno/minerva-perfil.png") 0 0 no-repeat;
+  position: relative;
+}
+
+#gnosys-header #gnosys-titulo {
+  position: absolute;
+  left: 165px;
+  bottom: 0px;
+}
+
+#gnosys-header #gnosys-login {
+  position: absolute;
+  right: 0;
+  top: 30px;
+}
+
+#gnosys-header #gnosys-datahora {
+  display: none;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+/******************
+ * Cabeçalho - Titulo
+ ******************/
+#gnosys-titulo h1,
+#gnosys-titulo h2 {
+  color: #666666;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 2.5em;
+}
+
+/******************
+ * Cabeçalho - Login
+ ******************/
+#gnosys-login .gnosys-login-foto,
+#gnosys-login .gnosys-login-informacoes {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#gnosys-login .gnosys-login-foto {
+  width: 40px;
+  height: 40px;
+  border-radius: 32px;
+}
+
+#gnosys-login .gnosys-login-informacoes {
+  margin: 0 5px;
+}
+
+#gnosys-login .gnosys-login-nome {
+  font-weight: bold;
+  font-size: 1em;
+  float: left;
+  margin-top: 5px;
+  margin-right: 7px;
+}
+
+#gnosys-login .gnosys-login-links {
+  padding-top: 4px;
+  text-decoration: underline;
+}
+
+#gnosys-login .gnosys-login-recuperar-senha {
+  padding-left: 1px;
+  padding-top: 1px;
+  text-decoration: underline;
+}
+
+#gnosys-login .gnosys-login-decorate {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#gnosys-login .gnosys-campo-label {
+  display: block;
+}
+
+#btnAlterarSenhaEmail {
+  margin-left: 2px;
+  margin-right: 10px;
+}
+
+/******************
+ * Menu dropdown
+ ******************/
+
+#linkExibirModalPerfis {
+  width: 15px;
+  height: 15px;
+  /*margin-left: 5px;*/
+  position: relative;
+  /*bottom: 1px;*/
+  top: 5px;
+}
+
+#divExibirModalPerfis {
+  float: left;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  right: 0px;
+  color: #ecfff4;
+  z-index: 100;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #d2e4d9;
+}
+
+#divExibirModalPerfis:hover .dropdown-content {
+  display: block;
+}
+
+/******************
+ * Submenu dropdown
+ ******************/
+
+.dropdown-content-submenu {
+  display: none;
+  position: absolute;
+  background-color: #92d4a8;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 90;
+  min-width: fit-content;
+}
+
+.dropdown-content-submenu a {
+  display: block;
+}
+
+#divExibirSubmenuExtensao {
+  display: inline-block;
+}
+
+#divExibirSubmenuExtensao .dropdown-content-submenu {
+  margin: 0 11px;
+}
+
+#divExibirSubmenuExtensao:hover .dropdown-content-submenu {
+  display: block;
+}
+
+.cabecalhoMenu {
+  color: rgb(101, 99, 99);
+  padding: 4px 0px 4px 16px;
+  background-color: rgba(206, 212, 208, 0.44);
+  overflow: hidden;
+}
+
+.modoAtualMenu {
+  float: left;
+  margin-right: 5px;
+}
+
+.modoAtivoMenu {
+  margin-right: 7px;
+}
+
+.tituloCinzaMenu {
+  color: rgba(158, 154, 154, 1);
+  padding: 8px 0px 0px 16px;
+}
+
+.imgProfile {
+  height: 14px;
+  float: left;
+  margin-right: 7px;
+}
+
+.itemProfileDisable {
+  color: black;
+  text-decoration: none;
+}
+
+.separatorDropdown {
+  height: 2px;
+  background: #000;
+}
+
+.itemDropdown {
+  font-size: 12px;
+  font-weight: bold;
+  color: #5d5d5d;
+  padding: 5px 16px;
+}
+
+.itemDropdownSubmenu {
+  padding: 0 11px;
+  margin: 0 !important;
+}
+
+/******************
+ * Cabeçalho - Menu
+ ******************/
+#gnosys-menu {
+  background-color: #89c79e;
+  color: #ffffff;
+  height: 30px;
+}
+
+#gnosys-menu a {
+  margin: 0 11px;
+  color: #ffffff;
+  text-decoration: none;
+  height: 30px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+#gnosys-menu a:hover {
+  margin: 0 11px;
+  color: #507357;
+  text-decoration: none;
+  height: 30px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+#gnosys-menu a.gnosys-menu-selec {
+  background-color: #ffffff;
+  font-weight: bold;
+  padding: 7px 10px;
+  color: #6da57e;
+}
+
+.gnosys-menu-com-submenu {
+  margin: 0 11px;
+  height: 30px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+#divExibirSubmenuExtensao:hover .gnosys-menu-com-submenu {
+  color: #507357;
+}
+
+.gnosys-menu-com-submenu-selec,
+.gnosys-submenu-selec {
+  background-color: #ffffff;
+  font-weight: bold;
+  color: #6da57e !important;
+  padding: 0 10px;
+}
+
+/******************
+ * Conteudo - Título
+ ******************/
+#gnosys-titulo-pagina {
+  color: #333;
+  letter-spacing: 1px;
+  font-size: large;
+  font-weight: normal;
+  text-align: right;
+  border-bottom: 1px solid #333;
+}
+
+/******************
+ * Rodapé
+ ******************/
+#gnosys-footer {
+  position: relative;
+  height: 5%;
+  color: #666;
+  background-color: #89c79e;
+  clear: both;
+}
+
+#gnosys-footer .gnosys-strict {
+  min-height: 100%;
+  position: relative;
+}
+
+#gnosys-footer .gnosys-footer-informacoes {
+  position: absolute;
+  bottom: 25%;
+  right: 0;
+  text-align: right;
+  top: 5px;
+}
+
+#gnosys-footer .gnosys-footer-svn {
+  font-size: 0.9em;
+}
+
+/******************
+ * Conteúdo
+ ******************/
+#gnosys-content {
+  margin: 0 10px;
+  padding-bottom: 45px; /* Deve ser a mesma altura de #gnosys-footer */
+}
